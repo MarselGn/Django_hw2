@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def contacts(requests):
-    return render(requests, 'catalog/contacts.html')
+    return render(requests, 'catalog/contacts/contacts.html')
 
 
 def home(requests):
